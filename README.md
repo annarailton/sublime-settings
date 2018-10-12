@@ -16,7 +16,7 @@
 * [Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended) - more different Markdown syntax highlighting (does a better job of inline code highlighting, worse at bullets)
 * [MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview) - allows for easy Markdown preview in the browser
 * [PlainTasks](https://packagecontrol.io/packages/PlainTasks) - nice todo lists
-[Pandoc](https://packagecontrol.io/packages/Pandoc) - convert between different markup formats
+* [Pandoc](https://packagecontrol.io/packages/Pandoc) - convert between different markup formats
 * [Table Editor](https://packagecontrol.io/packages/Table%20Editor) - makes editing text tables much better
 * [Rainbowth](https://github.com/whitequark/rainbowth) - Rainbow parantheses for Lisps
 * [Parinfer](https://github.com/oakmac/sublime-text-parinfer) - Smart parentheses for Lisps
@@ -95,6 +95,7 @@ To activate upon save you will need the `Hooks` package, and to add the followin
         ],
 }
 ```
+(NB this can be pretty annoying so do this at your peril - maybe running this on commit/git staging would be better).
 
 </p>
 </details>
