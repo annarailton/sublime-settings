@@ -1,19 +1,14 @@
----
-title: Awesome Sublime text stuff
-date: 2018-08-24 11:48:37
----
-# Packages
+# Awesome sublime stuff
 
-## UI
+## Packages
 
-**hello**
-_something_
+### UI
 
 * [A File Icon](https://github.com/ihodev/a-file-icon) - file-specific icons in the sidebar
 * [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)  - sidebar does loads more stuff
 * [Monokai Extended](https://github.com/jonschlinkert/sublime-monokai-extended) - More Monokai highlighting (also to get Rainbowth to work...)
 
-## Text related
+### Text related
 
 * [HighlightWords](https://packagecontrol.io/packages/HighlightWords) - custom highlighting of e.g. TODO of DEBUG
 * [InsertDate](https://packagecontrol.io/packages/InsertDate) - insert current data/time (bind to keyboard shortcuts)
@@ -26,7 +21,7 @@ _something_
 * [Rainbowth](https://github.com/whitequark/rainbowth) - Rainbow parantheses for Lisps
 * [Parinfer](https://github.com/oakmac/sublime-text-parinfer) - Smart parentheses for Lisps
 
-## General programming
+### General programming
 
 * [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter) - matches and highlights a variety of brackets
 * [Generic Config](https://packagecontrol.io/packages/Generic%20Config) - generic highlighting of config files
@@ -36,7 +31,7 @@ _something_
 * [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) - code linting
 * [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) - run interpreter inside Sublime
 
-## Python
+### Python
 
 * [AutoDocstring](https://packagecontrol.io/packages/AutoDocstring) - insert/update docstrings
 * [Python Fix Imports](https://packagecontrol.io/packages/Python%20Fix%20Imports) - gets imports correctly ordered and formatted
@@ -104,13 +99,13 @@ To activate upon save you will need the `Hooks` package, and to add the followin
 </p>
 </details>
 
-# Meta
+## Meta
 
 * [Hooks](https://packagecontrol.io/packages/Hooks) - allows you to bind custom commands to Sublime hooks
 * [Package Control](https://packagecontrol.io) - have to have this
 * [PackageResourceViewer](https://packagecontrol.io/packages/PackageResourceViewer) - can view default snippets
 
-# Misc
+## Misc
 
 * [Carbon](https://github.com/molnarmark/carbonSublime) - making code snippets for presentations *etc.* (without having to print screen everything!)
 
