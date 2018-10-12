@@ -1,0 +1,16 @@
+// SublimeLinter Settings - User
+{
+	"debug": true,
+	"paths": {
+	    "linux": ["/home/railton/environments/default_3/bin/pylint"],
+	    "osx": [],
+	    "windows": []
+	},
+	"linters": {
+		"pylint": {
+			"disable": false,
+			"python": "/home/railton/environments/default_3/bin/python3",
+
+		}
+	},
+}

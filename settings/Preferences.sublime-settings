@@ -1,0 +1,96 @@
+{
+	"added_words":
+	[
+		"refactored",
+		"unrefactorable",
+		"Refactoring",
+		"refactoring",
+		"whitespace",
+		"Tokenisation",
+		"subgraphs",
+		"subtrees",
+		"Cyclomatic",
+		"independency",
+		"iff",
+		"reusability",
+		"Frequentist",
+		"itemset",
+		"perceptron",
+		"constraining",
+		"perceptrons",
+		"Backpropagation",
+		"backpropagation",
+		"overfitting",
+		"Convolutional",
+		"convolutional",
+		"Poisson",
+		"softmax",
+		"multinoulli",
+		"nonzero",
+		"learnable",
+		"maxout",
+		"feedforward",
+		"softplus",
+		"trigram",
+		"equivariance",
+		"Wikipedia",
+		"metadata",
+		"timestamp",
+		"timestep",
+		"overfits",
+		"dropout",
+		"hyperparameters",
+		"Preprocess",
+		"logits",
+		"Jill",
+		"grep",
+		"reinitialisable",
+		"feedable",
+		"initialisable",
+		"irregardless",
+		"vocab",
+		"interpretability",
+		"",
+		"multilabel",
+		"multiclass",
+		"numpy",
+		"Tensorflow",
+		"tf",
+		"codebase",
+		"dataflow",
+		"Deduplication",
+		"Deduplicating",
+		"Deduplicator"
+	],
+	"args":
+	{
+		"kill": true
+	},
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended Origin.tmTheme",
+	"command": "exec",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"font_face": "Fira Code",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage",
+		"Markdown"
+	],
+	"ignored_words":
+	[
+		"np"
+	],
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"spell_check": true,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

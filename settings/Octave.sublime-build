@@ -1,0 +1,6 @@
+{
+    "cmd": ["octave", "$file_name"],
+    // "cmd": ["octave", "-p $file_path", "$file_name"],
+    "path": "/usr/bin",
+    "selector": "source.matlab"
+}

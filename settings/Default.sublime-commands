@@ -1,0 +1,3 @@
+[
+    { "caption": "Custom: Autoflake Remove Unused Imports", "command": "autoflake_remove_unused_imports" }
+]

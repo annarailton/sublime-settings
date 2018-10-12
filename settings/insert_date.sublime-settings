@@ -1,0 +1,4 @@
+{
+    "format": "%Y-%m-%d %H:%M:%S",
+	"silence_timezone_request": true
+}

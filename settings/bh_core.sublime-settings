@@ -1,0 +1,14 @@
+{
+    "scope_brackets": [
+        // Markdown italics
+        {
+            "name": "mditalic",
+            "enabled": false  // Annoying in maths markup
+        },
+        // LaTeX dollar signs
+        {
+            "name": "latexmath_inline",
+            "language_list": ["LaTeX", "LaTeX (TikZ)", "knitr (Rnw)", "Markdown", "Multimarkdown", "GithubFlavoredMarkdown", "Markdown Extended"],
+        },
+    ]
+}

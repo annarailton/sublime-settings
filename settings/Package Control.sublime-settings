@@ -1,0 +1,36 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AutoDocstring",
+		"BracketHighlighter",
+		"Carbon",
+		"Generic Config",
+		"Git",
+		"GitGutter",
+		"HighlightWords",
+		"Hooks",
+		"InsertDate",
+		"Markdown Extended",
+		"MarkdownEditing",
+		"Monokai Extended",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pandoc",
+		"Parinfer",
+		"PlainTasks",
+		"Python Fix Imports",
+		"PyYapf Python Formatter",
+		"Rainbowth",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-pylint",
+		"SublimeREPL",
+		"Table Editor"
+	]
+}
