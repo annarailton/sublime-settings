@@ -78,6 +78,7 @@
 	"ignored_packages":
 	[
 		"Vintage",
+		"Github Tools",
 		"Markdown"
 	],
 	"ignored_words":
