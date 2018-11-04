@@ -62,7 +62,8 @@
 		"Deduplicating",
 		"Deduplicator",
 		"subtree",
-		"Clojure"
+		"Clojure",
+		"namespace"
 	],
 	"args":
 	{
