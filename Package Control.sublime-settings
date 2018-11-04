@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"Advanced CSV",
 		"AutoDocstring",
 		"BracketHighlighter",
 		"Carbon",
@@ -21,14 +22,13 @@
 		"Package Control",
 		"PackageResourceViewer",
 		"Pandoc",
-		"Parinfer",
 		"PlainTasks",
 		"Python Fix Imports",
 		"PyYapf Python Formatter",
-		"Rainbowth",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-joker",
 		"SublimeLinter-pylint",
 		"SublimeREPL",
 		"Table Editor"

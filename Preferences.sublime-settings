@@ -60,7 +60,9 @@
 		"dataflow",
 		"Deduplication",
 		"Deduplicating",
-		"Deduplicator"
+		"Deduplicator",
+		"subtree",
+		"Clojure"
 	],
 	"args":
 	{
@@ -77,9 +79,8 @@
 	"font_size": 10,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Github Tools",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"ignored_words":
 	[
