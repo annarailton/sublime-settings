@@ -1,6 +1,6 @@
 // These settings override both User and Default settings for the Clojure syntax
 {
     "word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
-    "tab_size": 4,
+    "tab_size": 2,
     "translate_tabs_to_spaces": true,
 }
