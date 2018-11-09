@@ -35,7 +35,13 @@
 
 * [AutoDocstring](https://packagecontrol.io/packages/AutoDocstring) - insert/update docstrings
 * [Python Fix Imports](https://packagecontrol.io/packages/Python%20Fix%20Imports) - gets imports correctly ordered and formatted
-* [PyYapf Python Formatter](https://packagecontrol.io/packages/PyYapf%20Python%20Formatter) - runs the [YAPF](https://github.com/google/yapf) Python formatter
+* [PyYapf Python Formatter](https://packagecontrol.io/packages/PyYapf%20Python%20Formatter) - runs the [YAPF](https://github.com/google/yapf) 
+Python formatter. Note that in order for it to not break with dictionary unpacking `**my_dict` you need the Python3.6+ version of `yapf`. See [here](https://stackoverflow.com/a/44254088/9839539) for instructions on how to set up Python3.6 and pip3.6. Then just do
+```bash
+pip3 uninstall yapf 
+pip3.6 install yapf
+whereis yapf
+```
 * [SublimeLinter-pylint](ttps://packagecontrol.io/packages/SublimeLinter-pylint) - because you need a Python linter
 
 <details><summary>Make `autoflake` callable inside Sublime</summary>
