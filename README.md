@@ -44,11 +44,26 @@ whereis yapf
 ```
 * [SublimeLinter-pylint](ttps://packagecontrol.io/packages/SublimeLinter-pylint) - because you need a Python linter
 
-<details><summary>Make `autoflake` callable inside Sublime</summary>
-<p>
+
+## Meta
+
+* [Hooks](https://packagecontrol.io/packages/Hooks) - allows you to bind custom commands to Sublime hooks
+* [Package Control](https://packagecontrol.io) - have to have this
+* [PackageResourceViewer](https://packagecontrol.io/packages/PackageResourceViewer) - can view default snippets
+
+## Misc
+
+* [Carbon](https://github.com/molnarmark/carbonSublime) - making code snippets for presentations *etc.* (without having to print screen everything!)
+
+## Making custom commands (keymap, command palette)
+
+As an example, consider running `autoflake` on Python files you are editing. 
+
 [`autoflake`](https://pypi.org/project/autoflake/) is a Python tool that trims used imports and variables.
 
 You will need the following Python script saved in your `.config/sublime-text-3/Packages/User` folder (see [here](https://github.com/kylebebak/sublime_text_config/blob/master/autoflake.py))
+
+### Custom command
 
 ```python
 # autoflake.py
@@ -70,23 +85,33 @@ class AutoflakeRemoveUnusedImportsCommand(sublime_plugin.TextCommand):
 
 ```
 
+### Command palette
+
 Append the following to `Default.sublime-commands` to have it available via the command palette.
 
 ```json
 [
     // ...
-    { "caption": "Custom: Autoflake Remove Unused Imports", "command": "autoflake_remove_unused_imports" }
+    { "caption": "Custom: Autoflake Remove Unused Imports", "command": "autoflake_remove_unused_imports" }  
 ]
 ```
+### Keymap
 
 To do key binding, append the following to `Default (Linux).sublime-keymap`:
 
 ```json
 [
     // ...
-    { "keys": ["ctrl+alt+g"], "command": "autoflake_remove_unused_imports" }
+    { "keys": ["ctrl+alt+g"], "command": "autoflake_remove_unused_imports",
+    "context": [
+            { "key": "selector", "operator": "equal", 
+            "operand": "source.python" }
+        ]
+    }
 ]
 ```
+
+### Activate upon save
 
 To activate upon save you will need the `Hooks` package, and to add the following to `Preferences.sublime-settings`:
 
@@ -101,20 +126,4 @@ To activate upon save you will need the `Hooks` package, and to add the followin
         ],
 }
 ```
-(NB this can be pretty annoying so do this at your peril - maybe running this on commit/git staging would be better).
-
-</p>
-</details>
-
-## Meta
-
-* [Hooks](https://packagecontrol.io/packages/Hooks) - allows you to bind custom commands to Sublime hooks
-* [Package Control](https://packagecontrol.io) - have to have this
-* [PackageResourceViewer](https://packagecontrol.io/packages/PackageResourceViewer) - can view default snippets
-
-## Misc
-
-* [Carbon](https://github.com/molnarmark/carbonSublime) - making code snippets for presentations *etc.* (without having to print screen everything!)
-
-
-
+*N.B.* don't actually do this as it can be pretty annoying - implementing it as a pre-commit hook is a much better idea (see [this gist](https://gist.github.com/annarailton/afa9c4fb40a2928547b2f14ed1fce8f6) for more info).
