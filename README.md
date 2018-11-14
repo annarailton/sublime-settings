@@ -57,9 +57,7 @@ whereis yapf
 
 ## Making custom commands (keymap, command palette)
 
-As an example, consider running `autoflake` on Python files you are editing. 
-
-[`autoflake`](https://pypi.org/project/autoflake/) is a Python tool that trims used imports and variables.
+As an example, consider running [`autoflake`](https://pypi.org/project/autoflake/) on Python files you are editing. (`autoflake` is a Python tool that trims used imports and variables.)
 
 You will need the following Python script saved in your `.config/sublime-text-3/Packages/User` folder (see [here](https://github.com/kylebebak/sublime_text_config/blob/master/autoflake.py))
 
