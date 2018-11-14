@@ -2,12 +2,18 @@
     { "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true} },
     { "keys": ["shift+space"], "command": "move", "args": {"by": "characters", "forward": true} },
     { "keys": ["alt+d"], "command": "goto_definition" },
-    {"keys": ["f3"], "command": "carbon_sublime"},
+    { "keys": ["f3"], "command": "carbon_sublime"},
     { "keys": ["ctrl+alt+g"], "command": "autoflake_remove_unused_imports" },
     {   // disable autocomplete single quote for lisps
         "keys": ["'"], "command": "insert", "args": {"characters": "'"},
         "context":
         [
+            { "key": "selector", "operator": "equal", "operand": "source.clojure" }
+        ]
+    },
+    {  // Run cljfmt on Clojure code
+    "keys": ["ctrl+alt+f"], "command": "run_cljfmt",
+    "context": [
             { "key": "selector", "operator": "equal", "operand": "source.clojure" }
         ]
     },
