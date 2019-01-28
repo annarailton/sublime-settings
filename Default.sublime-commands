@@ -1,3 +1,4 @@
 [
-    { "caption": "Custom: Autoflake Remove Unused Imports", "command": "autoflake_remove_unused_imports" }
+    { "caption": "Autoflake Remove Unused Imports", "command": "autoflake_remove_unused_imports" },
+    { "caption": "Format Clojure code", "command": "run_cljfmt" }
 ]

@@ -1,3 +1,4 @@
 {
     "yapf_command": "/home/railton/.local/bin/yapf",
+    "debug": true,
 }

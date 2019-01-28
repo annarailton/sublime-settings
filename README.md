@@ -15,6 +15,7 @@
 * [MarkdownEditing](https://packagecontrol.io/packages/MarkdownEditing) - robust syntax highlighting for Markdown
 * [Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended) - more different Markdown syntax highlighting (does a better job of inline code highlighting, worse at bullets)
 * [MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview) - allows for easy Markdown preview in the browser
+* [MarkdownTOC](https://packagecontrol.io/packages/MarkdownTOC) - adds Markdown table of contents
 * [PlainTasks](https://packagecontrol.io/packages/PlainTasks) - nice todo lists
 * [Pandoc](https://packagecontrol.io/packages/Pandoc) - convert between different markup formats
 * [Table Editor](https://packagecontrol.io/packages/Table%20Editor) - makes editing text tables much better
@@ -27,13 +28,12 @@
 * [Generic Config](https://packagecontrol.io/packages/Generic%20Config) - generic highlighting of config files
 * [Git](https://packagecontrol.io/packages/Git) - git integration
 * [GitGutter](https://packagecontrol.io/packages/GitGutter) - see git diff in gutter
-* [SublimeCodeIntel](https://packagecontrol.io/packages/SublimeCodeIntel) - autocomplete, goto definition etc.
-* [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) - code linting
 * [SublimeREPL](https://packagecontrol.io/packages/SublimeREPL) - run interpreter inside Sublime
 
 ### Python
 
 * [AutoDocstring](https://packagecontrol.io/packages/AutoDocstring) - insert/update docstrings
+* [Sublime JEDI](https://packagecontrol.io/packages/Jedi%20-%20Python%20autocompletion) - Code intel for Python
 * [Python Fix Imports](https://packagecontrol.io/packages/Python%20Fix%20Imports) - gets imports correctly ordered and formatted
 * [PyYapf Python Formatter](https://packagecontrol.io/packages/PyYapf%20Python%20Formatter) - runs the [YAPF](https://github.com/google/yapf) 
 Python formatter. Note that in order for it to not break with dictionary unpacking `**my_dict` you need the Python3.6+ version of `yapf`. See [here](https://stackoverflow.com/a/44254088/9839539) for instructions on how to set up Python3.6 and pip3.6. Then just do

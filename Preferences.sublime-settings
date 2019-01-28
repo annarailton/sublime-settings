@@ -63,7 +63,11 @@
 		"Deduplicator",
 		"subtree",
 		"Clojure",
-		"namespace"
+		"namespace",
+		"homoiconic",
+		"programmatically",
+		"composable",
+		"hyperparameter"
 	],
 	"args":
 	{
@@ -85,6 +89,7 @@
 	],
 	"ignored_words":
 	[
+		"minibatches",
 		"np"
 	],
 	"rulers":

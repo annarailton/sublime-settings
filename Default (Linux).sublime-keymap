@@ -22,7 +22,7 @@
         ]
     },
     {// Run cljfmt on Clojure code
-    "keys": ["ctrl+alt+f"], "command": "run_cljfmt",
+    "keys": ["ctrl+alt+c"], "command": "run_cljfmt",
     "context": [
             { "key": "selector", "operator": "equal", "operand": "source.clojure" }
         ]

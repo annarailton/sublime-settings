@@ -2,14 +2,14 @@
 {
 	"debug": true,
 	"paths": {
-	    "linux": ["/home/railton/environments/default_3/bin/pylint"],
+	    "linux": ["/home/railton/.local/bin/pylint"],
 	    "osx": [],
 	    "windows": []
 	},
 	"linters": {
 		"pylint": {
 			"disable": false,
-			"python": "/home/railton/environments/default_3/bin/python3",
+			"python": "/usr/bin/python3",
 
 		}
 	},
