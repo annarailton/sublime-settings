@@ -1,0 +1,7 @@
+{
+    // Already have pylint and mypy
+    "anaconda_linting": false,
+    "pep8": false,
+    "anaconda_gutter_marks": false,
+    "display_signatures": false,
+}

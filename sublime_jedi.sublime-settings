@@ -1,0 +1,6 @@
+{
+    "python_interpreter": "/home/railton/miniconda3/bin/python3",
+    "python_package_paths": ["/home/railton/miniconda3/pkgs",],
+    "enable_tooltip": false,
+    "debug": true,
+}

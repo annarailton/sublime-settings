@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+print('>>DEBUG', $1)
+]]></content>
+    <tabTrigger>debug</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
