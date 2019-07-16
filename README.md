@@ -1,5 +1,16 @@
 # Awesome sublime stuff
 
+To get these to work in a fresh install of  `sublime`, you first need to install Package Control. The packages should then all install automatically. 
+
+There are some extras to install (mainly linters). This assumes Python 3.6+:
+
+```bash
+sudo apt-get install libxml2-utils
+pip install mypy
+pip install pylint
+pip install yapf
+```
+
 ## Packages
 
 ### UI
@@ -10,7 +21,7 @@
 
 ### Text related
 
-* [HighlightWords](https://packagecontrol.io/packages/HighlightWords) - custom highlighting of e.g. TODO of DEBUG
+* [HighlightWords](https://packagecontrol.io/packages/HighlightWords) - custom highlighting of e.g. TODO or DEBUG
 * [InsertDate](https://packagecontrol.io/packages/InsertDate) - insert current data/time (bind to keyboard shortcuts)
 * [MarkdownEditing](https://packagecontrol.io/packages/MarkdownEditing) - robust syntax highlighting for Markdown
 * [Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended) - more different Markdown syntax highlighting (does a better job of inline code highlighting, worse at bullets)
