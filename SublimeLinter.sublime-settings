@@ -1,8 +1,7 @@
 // SublimeLinter Settings - User
 {
-	"debug": true,
 	"paths": {
-	    "linux": ["/home/railton/.local/bin/pylint"],
+	    "linux": ["/home/railton/.local/bin/pylint", "/usr/bin/javac"],
 	    "osx": [],
 	    "windows": []
 	},
@@ -11,6 +10,15 @@
 			"disable": false,
 			"python": "/usr/bin/python3",
 
-		}
+		},
+		"mypy": {
+			"disable": false,
+			"lint_mode": "load_save",
+			"python": "/home/railton/miniconda3/bin/python3.7",
+			"args": [],
+	    },
+	    "javac": {
+	        "lint": "all"
+	    },
 	},
 }

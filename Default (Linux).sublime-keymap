@@ -27,4 +27,6 @@
             { "key": "selector", "operator": "equal", "operand": "source.clojure" }
         ]
     },
+    // Overwrite Anaconda key binding to Ctrl + Alt + F
+    { "keys": ["ctrl+alt+f"], "command": "yapf_selection" }
 ]
