@@ -1,6 +1,5 @@
 {
   "cmd": ["/usr/bin/python3", "$file"],
-  // "cmd": ["/usr/bin/python3.6", "$file"],
   "selector": "source.python",
   "file_regex": "file \"(...*?)\", line ([0-9]+)"
 }
