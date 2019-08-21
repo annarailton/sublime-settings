@@ -2,6 +2,7 @@
 {
 	"paths": {
 	    "linux": ["/home/railton/.local/bin/pylint", "/usr/bin/javac"],
+	    // "linux": ["/home/anna/.local/bin/pylint"],
 	    "osx": [],
 	    "windows": []
 	},

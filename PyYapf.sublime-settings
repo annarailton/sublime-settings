@@ -1,4 +1,5 @@
 {
     "yapf_command": "/home/railton/.local/bin/yapf",
     "debug": true,
+    // "yapf_command": "/home/anna/.local/bin/yapf"
 }

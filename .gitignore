@@ -1,3 +1,4 @@
 *.last-run
 *.cache
 .SublimeREPLHistory/*
+Package Control.merged-ca-bundle
