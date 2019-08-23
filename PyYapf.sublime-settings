@@ -1,5 +1,5 @@
 {
-    "yapf_command": "/home/railton/.local/bin/yapf",
+    "yapf_command": "/home/railton/miniconda3/bin/yapf",
     "debug": true,
     // "yapf_command": "/home/anna/.local/bin/yapf"
 }

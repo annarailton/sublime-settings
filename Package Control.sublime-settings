@@ -1,5 +1,14 @@
 {
 	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"curl",
+			"wget",
+			"urllib"
+		]
+	},
 	"in_process_packages":
 	[
 	],
@@ -19,6 +28,7 @@
 		"HTML-CSS-JS Prettify",
 		"Indent XML",
 		"InsertDate",
+		"Log Highlight",
 		"Markdown Extended",
 		"MarkdownEditing",
 		"MarkdownTOC",

@@ -74,7 +74,8 @@
 		"unsantized",
 		"versioning",
 		"workflow",
-		"Kubernetes"
+		"Kubernetes",
+		"featurized"
 	],
 	"args":
 	{
@@ -98,6 +99,7 @@
 	],
 	"ignored_words":
 	[
+		"featurize",
 		"minibatches",
 		"np"
 	],

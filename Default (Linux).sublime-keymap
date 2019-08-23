@@ -1,7 +1,6 @@
 [
-    {// Kill a build
-        "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true}
-    },
+    // Kill a build
+    { "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true} },
     {// Escape current context
         "keys": ["shift+space"], "command": "move", "args": {"by": "characters", "forward": true}
     },
@@ -27,6 +26,17 @@
             { "key": "selector", "operator": "equal", "operand": "source.clojure" }
         ]
     },
+    {// Run "Pretty JSON" formatting
+    "keys": ["ctrl+alt+f"], "command": "pretty_json_and_sort",
+    "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.json" }
+        ]
+    },
     // Overwrite Anaconda key binding to Ctrl + Alt + F
-    { "keys": ["ctrl+alt+f"], "command": "yapf_selection" }
+    { "keys": ["ctrl+alt+f"], "command": "yapf_selection",
+        "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "source.python" }
+        ]
+     }
 ]
