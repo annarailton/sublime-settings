@@ -76,7 +76,9 @@
 		"workflow",
 		"Kubernetes",
 		"featurized",
-		"featurising"
+		"featurising",
+		"multiset",
+		"Jaccard"
 	],
 	"args":
 	{
@@ -91,7 +93,7 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 10,
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"Carbon",

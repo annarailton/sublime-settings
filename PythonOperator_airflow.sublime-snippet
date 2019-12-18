@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:task_id} = PythonOperator(
+    task_id='${1:task_id}',
+    python_callable=${2:callable},
+    op_kwargs={${3:op_kwargs}}
+)
+]]></content>
+    <tabTrigger>pyop</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

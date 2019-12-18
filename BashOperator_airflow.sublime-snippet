@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:task_id} = BashOperator(
+    task_id='${1:task_id}',
+    bash_command='${2:command}',
+    params={${3:params}}
+)
+]]></content>
+    <tabTrigger>bashop</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

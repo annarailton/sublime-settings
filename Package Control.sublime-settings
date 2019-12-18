@@ -42,6 +42,7 @@
 		"Python Fix Imports",
 		"PyYapf Python Formatter",
 		"SideBarEnhancements",
+		"SingleTrailingNewLine",
 		"SublimeLinter",
 		"SublimeLinter-contrib-joker",
 		"SublimeLinter-contrib-mypy",
@@ -49,6 +50,7 @@
 		"SublimeLinter-pylint",
 		"SublimeLinter-xmllint",
 		"SublimeREPL",
-		"Table Editor"
+		"Table Editor",
+		"TypeScript Syntax"
 	]
 }
