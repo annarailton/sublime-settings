@@ -1,0 +1,6 @@
+{
+    "whitelist_chars": [
+        // Chars used by `tree` command
+        "└─├│",
+    ]
+}
