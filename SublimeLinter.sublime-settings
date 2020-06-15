@@ -1,8 +1,7 @@
 // SublimeLinter Settings - User
 {
 	"paths": {
-	    "linux": ["/home/railton/.local/bin/pylint", "/usr/bin/javac", "/usr/local/bin/mdl"],
-	    // "linux": ["/home/anna/.local/bin/pylint"],
+	    "linux": ["/home/railton/.local/bin/pylint", "/usr/bin/javac", "/usr/local/bin/mdl", "/usr/bin/shellcheck", "/home/railton/miniconda3/bin/yamllint"],
 	    "osx": [],
 	    "windows": []
 	},
@@ -12,12 +11,6 @@
 			"python": "/usr/bin/python3",
             "args": ["--rcfile=/home/railton/.config/pylint/.pylintrc"]
 		},
-		"mypy": {
-			"disable": false,
-			"lint_mode": "load_save",
-			"python": "/home/railton/miniconda3/bin/python3.7",
-			"args": [],
-	    },
 	    "javac": {
 	        "lint": "all"
 	    },
@@ -25,6 +18,20 @@
             "disable": false,
             "lint_mode": "load_save",
             "args": ["--config=/home/railton/dotfiles/.mdlrc"]
+        },
+		"mypy": {
+			"disable": false,
+			"lint_mode": "load_save",
+			"python": "/home/railton/miniconda3/bin/python3.7",
+			"args": [],
+	    },
+        "shellcheck": {
+            "disable": false,
+            "lint_mode": "load_save",
+        },
+        "yamllint": {
+            "disable": false,
+            "lint_mode": "load_save",
         }
 	},
 }
